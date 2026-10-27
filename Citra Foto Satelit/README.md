@@ -25,9 +25,8 @@ Proyek ini mengumpulkan data geospasial untuk area di sekitar **Weberek**, sebua
 | Radius | 20 km |
 | Sistem koordinat | WGS 84 (EPSG:4326) |
 | Bounding box (kotak) | Barat **125.728952**, Selatan **-9.262364**, Timur **126.093248**, Utara **-8.902636** |
-| Ukuran kotak | sekitar 40 x 40 km |
 
-**Catatan penting tentang titik pusat:** koordinat pusat diambil dari catatan lokasi "Dotik, Alas" pada basis data spesimen herbarium (Australia's Virtual Herbarium). Titik itu mewakili Suco Dotik, belum tentu persis di Weberek. Jika koordinat Weberek yang tepat sudah diketahui, batas area perlu dibuat ulang (lihat bagian 6).
+**Catatan penting tentang titik pusat:** koordinat pusat diambil dari catatan lokasi "Dotik, Alas" pada basis data spesimen herbarium (Australia's Virtual Herbarium). Titik itu mewakili Suco Dotik, belum tentu persis di Weberek. Jika koordinat Weberek yang tepat sudah diketahui, batas area perlu dibuat ulang.
 
 Sekitar sepertiga bagian selatan area adalah **laut** (Laut Timor), sehingga tidak ada informasi daratan di sana.
 
