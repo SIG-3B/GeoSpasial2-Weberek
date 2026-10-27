@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "metadata": {
+    "center": [
+      125.91666,
+      -9.03333
+    ],
+    "radius_km": 20,
+    "provider": "all",
+    "technology": "all",
+    "metric": "unique LTE cell records; not measured signal",
+    "grid_size_km": 2
+  }
+}

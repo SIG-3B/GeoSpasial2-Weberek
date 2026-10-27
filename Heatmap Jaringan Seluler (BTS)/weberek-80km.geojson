@@ -1,0 +1,1395 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/8449313",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5765,
+          -8.564
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 8449313,
+        "samples": 3,
+        "range_m": 1000,
+        "created": 1748130131,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 64.19255271594693
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5507,
+          -8.559
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682079,
+        "samples": 4,
+        "range_m": 1000,
+        "created": 1746819347,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.32514453349445
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/8449312",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5764,
+          -8.5645
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 8449312,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748130105,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 64.15375041060514
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/8449311",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5767,
+          -8.5643
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 8449311,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1748130201,
+        "updated": 1748130201,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 64.15262703181106
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/8450848",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5766,
+          -8.5647
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 8450848,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1748130388,
+        "updated": 1748130388,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 64.12286457393242
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/8450847",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5766,
+          -8.5647
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 8450847,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1748130408,
+        "updated": 1748130408,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 64.12286457393242
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/8448799",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5766,
+          -8.5647
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 8448799,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1748130471,
+        "updated": 1748130471,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 64.12286457393242
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/8448801",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5714,
+          -8.5601
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 8448801,
+        "samples": 3,
+        "range_m": 1000,
+        "created": 1748130515,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 64.87187197297483
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7689247",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5712,
+          -8.5596
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7689247,
+        "samples": 3,
+        "range_m": 1000,
+        "created": 1748130525,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 64.92983962801425
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7689248",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5676,
+          -8.5577
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7689248,
+        "samples": 8,
+        "range_m": 1000,
+        "created": 1748130555,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.33288023124656
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682335",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5654,
+          -8.5589
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682335,
+        "samples": 8,
+        "range_m": 1000,
+        "created": 1748130615,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.36733503187672
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682319",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.564,
+          -8.5597
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682319,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748130935,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.38660006239829
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682316",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5632,
+          -8.5601
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682316,
+        "samples": 3,
+        "range_m": 1000,
+        "created": 1748130945,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.40293659630898
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5615,
+          -8.5614
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682320,
+        "samples": 7,
+        "range_m": 1000,
+        "created": 1748130965,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.39795842845297
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7690765",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5596,
+          -8.5638
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7690765,
+        "samples": 6,
+        "range_m": 1000,
+        "created": 1748131015,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.30915693355124
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7690763",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5601,
+          -8.5632
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7690763,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748131025,
+        "updated": 1748416621,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.32955639369594
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7684363",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5592,
+          -8.5643
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7684363,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748131045,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.29113799836229
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7684367",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5577,
+          -8.5651
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7684367,
+        "samples": 4,
+        "range_m": 1000,
+        "created": 1748131065,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.31948105280499
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7684377",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5567,
+          -8.5652
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7684377,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748131085,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.37703996154136
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7684394",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5559,
+          -8.5647
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7684394,
+        "samples": 4,
+        "range_m": 1000,
+        "created": 1748131095,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.47452014295109
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7684395",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5558,
+          -8.5631
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7684395,
+        "samples": 4,
+        "range_m": 1000,
+        "created": 1748131125,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.622894607615
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7684365",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5558,
+          -8.5621
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7684365,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748131145,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.71155941737308
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7684385",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5557,
+          -8.5615
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7684385,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748131155,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.77141749279365
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7684383",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5557,
+          -8.5609
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7684383,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748131165,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.82466846762061
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7690529",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5547,
+          -8.5603
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7690529,
+        "samples": 6,
+        "range_m": 1000,
+        "created": 1748131175,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.94416447676275
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5519,
+          -8.5603
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682080,
+        "samples": 7,
+        "range_m": 1000,
+        "created": 1748131215,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.13020054985084
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5499,
+          -8.5599
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682081,
+        "samples": 8,
+        "range_m": 1000,
+        "created": 1748131255,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.29896268501177
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7684127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5472,
+          -8.5605
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7684127,
+        "samples": 9,
+        "range_m": 1000,
+        "created": 1748131285,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.42689743311247
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7685921",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5486,
+          -8.5604
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7685921,
+        "samples": 3,
+        "range_m": 1000,
+        "created": 1748131355,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.34180163188321
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5498,
+          -8.5595
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682061,
+        "samples": 7,
+        "range_m": 1000,
+        "created": 1748131365,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.34097486655371
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5502,
+          -8.5578
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682059,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748131415,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.46461701812684
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7681292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5505,
+          -8.5564
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7681292,
+        "samples": 3,
+        "range_m": 1000,
+        "created": 1748131425,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.56864566483137
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7681312",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5506,
+          -8.5558
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7681312,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1748131472,
+        "updated": 1748131472,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.615191768517
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7686954",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5502,
+          -8.5554
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7686954,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748131501,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.67720079709181
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7686944",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5506,
+          -8.5558
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7686944,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1748131571,
+        "updated": 1748131571,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.615191768517
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7681323",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.55,
+          -8.5554
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7681323,
+        "samples": 3,
+        "range_m": 1000,
+        "created": 1748131655,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.69047629192906
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7681322",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5498,
+          -8.5549
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7681322,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1748153998,
+        "updated": 1748153998,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.74807616590117
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5498,
+          -8.5549
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682089,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1748154068,
+        "updated": 1748154068,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.74807616590117
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5502,
+          -8.557
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682091,
+        "samples": 2,
+        "range_m": 1000,
+        "created": 1748154096,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.5354348158724
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/7682071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5507,
+          -8.559
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 7682071,
+        "samples": 3,
+        "range_m": 1000,
+        "created": 1748156052,
+        "updated": 1748416622,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 66.32514453349445
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/14500/3662092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2194,
+          -8.996
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 14500,
+        "cell_id": 3662092,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1748396740,
+        "updated": 1748396740,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 76.68663878156472
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LTE/514/1/10000/8448271",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.5647,
+          -8.5544
+        ]
+      },
+      "properties": {
+        "technology": "LTE",
+        "mcc": 514,
+        "mnc": 1,
+        "operator": "Telkomcel",
+        "area": 10000,
+        "cell_id": 8448271,
+        "samples": 1,
+        "range_m": 1000,
+        "created": 1754802685,
+        "updated": 1754802685,
+        "averageSignal": 0,
+        "rsrp_dbm": null,
+        "rssi_dbm": null,
+        "distance_km": 65.81713344687404
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "-77,4",
+        "count": 1,
+        "size_km": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.21555753752088,
+              -8.996692859350777
+            ],
+            [
+              125.2246627424228,
+              -8.996710002308523
+            ],
+            [
+              125.2246799562275,
+              -8.987717028033765
+            ],
+            [
+              125.21557497779943,
+              -8.987699891151506
+            ],
+            [
+              125.21555753752088,
+              -8.996692859350777
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "-41,52",
+        "count": 9,
+        "size_km": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.54378371725686,
+              -8.565498255207354
+            ],
+            [
+              125.55287825494791,
+              -8.56550717701285
+            ],
+            [
+              125.55288700749773,
+              -8.55651403662334
+            ],
+            [
+              125.54379268861395,
+              -8.556505118019746
+            ],
+            [
+              125.54378371725686,
+              -8.565498255207354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "-41,53",
+        "count": 7,
+        "size_km": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.54379268861395,
+              -8.556505118019746
+            ],
+            [
+              125.55288700749773,
+              -8.55651403662334
+            ],
+            [
+              125.55289575365954,
+              -8.547520896227928
+            ],
+            [
+              125.54380165342333,
+              -8.547511980825943
+            ],
+            [
+              125.54379268861395,
+              -8.556505118019746
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "-40,52",
+        "count": 12,
+        "size_km": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.55287825494791,
+              -8.56550717701285
+            ],
+            [
+              125.56197279306788,
+              -8.565515878529935
+            ],
+            [
+              125.56198132680997,
+              -8.55652273501758
+            ],
+            [
+              125.55288700749773,
+              -8.55651403662334
+            ],
+            [
+              125.55287825494791,
+              -8.56550717701285
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "-39,52",
+        "count": 4,
+        "size_km": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.56197279306788,
+              -8.565515878529935
+            ],
+            [
+              125.57106733160606,
+              -8.565524359758376
+            ],
+            [
+              125.57107564653995,
+              -8.55653121320223
+            ],
+            [
+              125.56198132680997,
+              -8.55652273501758
+            ],
+            [
+              125.56197279306788,
+              -8.565515878529935
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "-39,53",
+        "count": 1,
+        "size_km": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.56198132680997,
+              -8.55652273501758
+            ],
+            [
+              125.57107564653995,
+              -8.55653121320223
+            ],
+            [
+              125.57108395540521,
+              -8.547538066640756
+            ],
+            [
+              125.56198985432374,
+              -8.547529591499611
+            ],
+            [
+              125.56198132680997,
+              -8.55652273501758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grid_id": "-38,52",
+        "count": 8,
+        "size_km": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              125.57106733160606,
+              -8.565524359758376
+            ],
+            [
+              125.5801618705517,
+              -8.565532620697947
+            ],
+            [
+              125.58016996667695,
+              -8.556539471177068
+            ],
+            [
+              125.57107564653995,
+              -8.55653121320223
+            ],
+            [
+              125.57106733160606,
+              -8.565524359758376
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "center": [
+      125.91666,
+      -9.03333
+    ],
+    "radius_km": 80,
+    "provider": "all",
+    "technology": "all",
+    "metric": "unique LTE cell records; not measured signal",
+    "grid_size_km": 1
+  }
+}

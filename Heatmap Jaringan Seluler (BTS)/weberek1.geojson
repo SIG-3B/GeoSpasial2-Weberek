@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-10-27T09:31:34Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/4273255254",
+      "properties": {
+        "@id": "node/4273255254",
+        "man_made": "tower",
+        "tower:type": "communication"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2557368,
+          -9.3122632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8606562509",
+      "properties": {
+        "@id": "node/8606562509",
+        "man_made": "communications_tower",
+        "tower:type": "communication"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1995838,
+          -9.1538063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8606563026",
+      "properties": {
+        "@id": "node/8606563026",
+        "man_made": "communications_tower",
+        "tower:type": "communication"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2094489,
+          -9.2190536
+        ]
+      }
+    }
+  ]
+}
