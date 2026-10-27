@@ -7,8 +7,7 @@ Dokumentasi data GIS kelompok. Isi: asal data, cara pembuatan, isi setiap file, 
 2. Mochamad Andika Rizkia (714240055)
 3. Haikal Aditama Turah (714240022)
 - **Kelas:** D4 Teknik Informatika 3B
-- **Tanggal dokumen:** 27 Oktober 2026
-- **Versi:** 1.0
+- **Tanggal pengerjaan:** 27 Oktober 2026
 
 ---
 
@@ -176,31 +175,3 @@ json.dump(gj, open("radius20km.geojson", "w"))
 ```
 
 ---
-
-## 7. Keterbatasan
-
-- **Titik pusat perkiraan**, bukan koordinat Weberek yang terverifikasi.
-- **Garis sambungan tile.** Ada garis lurus di bagian tengah citra karena area ini berada di dua scene Sentinel-2 yang kondisi atmosfernya sedikit berbeda. Datanya valid untuk interpretasi visual, tetapi warna di kedua sisi garis tidak seragam.
-- **Awan kecil** masih ada di sisi barat dan utara citra.
-- **Laut** menutupi sekitar sepertiga area di selatan.
-- File `.jpg` dan `.png` **tidak punya georeferensi**, hanya untuk tampilan. Untuk analisis pakai file `.tif`.
-- File berformat uint8 sudah kehilangan sebagian presisi nilai dibanding float32.
-- Citra hanya satu tanggal, tidak mewakili perubahan musiman.
-
----
-
-## 8. Status dan Rencana
-
-- [x] Layer 3: Citra foto satelit
-- [x] Batas area kajian (lingkaran dan kotak)
-- [ ] Layer 2: Kontur permukaan (DEM, lalu kontur)
-- [ ] Layer 1: Heatmap jaringan seluler (BTS)
-- [ ] Layer 5: Heatmap sinyal satelit
-- [ ] Layer 4: Jaringan optik nasional
-- [ ] Verifikasi koordinat Weberek, lalu perbarui batas area jika berbeda jauh
-
----
-
-## 9. Kontak
-
-[isi nama dan kontak penanggung jawab data]
