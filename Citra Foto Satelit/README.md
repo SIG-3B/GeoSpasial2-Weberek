@@ -15,18 +15,6 @@ Dokumentasi data GIS kelompok. Isi: asal data, cara pembuatan, isi setiap file, 
 
 Proyek ini mengumpulkan data geospasial untuk area di sekitar **Weberek**, sebuah desa di Suco Dotik, Posto Administrativo Alas, Munisipio Manufahi, Timor-Leste. Area kajian adalah **radius 20 km** dari titik pusat.
 
-Rencana awalnya ada 5 layer data:
-
-| No | Layer | Status di paket ini |
-|----|-------|---------------------|
-| 1 | Heatmap jaringan seluler (BTS) | Belum dibuat |
-| 2 | Kontur permukaan (level ketinggian) | Belum dibuat |
-| 3 | Citra foto satelit | **Selesai** (Sentinel-2, 11 Oktober 2026) |
-| 4 | Jaringan optik nasional (backbone kabel) | Belum dibuat |
-| 5 | Heatmap sinyal satelit (internet/telepon) | Belum dibuat |
-
-Paket ini baru berisi **Layer 3** beserta batas area kajian. Layer lain ditambahkan ke dokumen ini setelah datanya diperoleh (lihat bagian 8).
-
 ---
 
 ## 2. Area Kajian
@@ -47,8 +35,6 @@ Sekitar sepertiga bagian selatan area adalah **laut** (Laut Timor), sehingga tid
 
 ## 3. Asal Data
 
-### Citra satelit (Layer 3)
-
 | Item | Keterangan |
 |------|------------|
 | Satelit / produk | Sentinel-2, level **L2A** (reflektansi permukaan, sudah dikoreksi atmosfer) |
@@ -60,21 +46,6 @@ Sekitar sepertiga bagian selatan area adalah **laut** (Laut Timor), sehingga tid
 
 **Atribusi yang wajib dicantumkan:**
 > Contains modified Copernicus Sentinel data 2026, processed with Copernicus Browser.
-
-### Tanggal lain yang dicoba
-
-Tanggal 27 Oktober 2026 menghasilkan gambar kosong (hitam) karena belum ada data Sentinel-2 untuk area ini pada hari itu. Data yang dipakai adalah tanggal 11 Oktober 2026 yang tutupan awannya rendah pada area kajian.
-
-### Rencana sumber untuk layer lain (belum dikerjakan)
-
-Bagian ini hanya rencana, bukan data yang sudah ada.
-
-| Layer | Calon sumber |
-|-------|--------------|
-| Kontur permukaan | DEM gratis: SRTM 30 m, Copernicus DEM GLO-30, atau ALOS AW3D30, lalu dibuat kontur dengan QGIS atau `gdal_contour` |
-| Heatmap seluler (BTS) | OpenCellID (lokasi menara), Ookla Open Data (kecepatan internet), atau survei lapangan |
-| Jaringan optik | Submarine Cable Map, Infrapedia, OpenStreetMap, atau permintaan ke operator/regulator |
-| Heatmap sinyal satelit | Simulasi link budget/line-of-sight berbasis DEM, atau peta ketersediaan layanan |
 
 ---
 
@@ -104,26 +75,12 @@ Masalah yang sempat muncul: piksel hitam di luar lingkaran saat file asli dibuka
 
 ---
 
-## 5. Isi File
+## 5. Detail Raster
 
-| File | Jenis | Isi | Georeferensi |
-|------|-------|-----|--------------|
-| `weberek_radius20km.geojson` | Vektor (poligon) | Lingkaran radius 20 km dari titik pusat | Ya, EPSG:4326 |
-| `weberek_kotak_40km.geojson` | Vektor (poligon) | Kotak 40 x 40 km (bounding box lingkaran) | Ya, EPSG:4326 |
-| `2026-10-11-...True_color.tiff` | Raster, 3 band, float32 | File mentah dari Copernicus, nilai 0 sampai 1, 2500 x 2500 px | Ya, EPSG:4326 |
-| `weberek_20km_sentinel2_20261011_clipped.tif` | Raster, 3 band, float32 | Citra yang di-clip ke lingkaran, `nodata = 0` | Ya, EPSG:4326 |
-| `weberek_20km_lingkaran_bersih.tif` | Raster, 4 band, uint8 (RGBA) | Citra lingkaran dengan luar lingkaran transparan (alpha) | Ya, EPSG:4326 |
-| `weberek_20km_kotak_bersih.tif` | Raster, 3 band, uint8 (RGB) | Citra kotak penuh, tanpa piksel hitam | Ya, EPSG:4326 |
-| `weberek_20km_kotak_bersih.jpg` | Gambar, 2000 x 2000 px | Versi kotak untuk laporan dan slide | **Tidak** |
-| `weberek_20km_preview.png` | Gambar RGBA, 1250 x 1250 px | Pratinjau lingkaran, luar lingkaran transparan | **Tidak** |
-
-**Detail raster:**
-- Ukuran piksel sekitar 0,000146 derajat, atau sekitar **16 m** di lapangan (2500 piksel untuk 40 km).
+- Ukuran piksel sekitar 0,000146 derajat, atau sekitar **16 m** di lapangan (2500 piksel untuk 20 km).
 - Band 1 = merah, band 2 = hijau, band 3 = biru.
 - Pada file float32, nilai sudah berupa tampilan True color (0 sampai 1), bukan reflektansi mentah per band. Jangan dipakai untuk menghitung indeks seperti NDVI.
 - Pada file uint8, nilai 0 sampai 255 hasil skala dari nilai float.
-
-**Rekomendasi:** untuk peta dan laporan pakai `kotak_bersih` (tif atau jpg). Pakai `lingkaran_bersih` jika memang perlu bentuk bulat.
 
 ---
 
@@ -131,14 +88,13 @@ Masalah yang sempat muncul: piksel hitam di luar lingkaran saat file asli dibuka
 
 ### 6.1 Di QGIS
 1. Buka QGIS, lalu **Layer → Add Layer → Add Raster Layer**, pilih file `.tif`.
-2. Untuk file `..._clipped.tif` yang tampak ada area hitam: buka **Properties → Transparency**, centang **Additional no data value**, isi `0`.
-3. Pasang basemap OpenStreetMap lewat **Browser → XYZ Tiles → OpenStreetMap** supaya posisi bisa dicek.
-4. Batas area: **Layer → Add Layer → Add Vector Layer**, pilih file `.geojson`.
-5. Proyek di QGIS boleh memakai EPSG:3857 atau lainnya. QGIS otomatis memproyeksikan ulang saat ditampilkan, data asli tetap EPSG:4326.
+2. Pasang basemap OpenStreetMap lewat **Browser → XYZ Tiles → OpenStreetMap** supaya posisi bisa dicek.
+3. Batas area: **Layer → Add Layer → Add Vector Layer**, pilih file `.geojson`.
+4. Proyek di QGIS boleh memakai EPSG:3857 atau lainnya. QGIS otomatis memproyeksikan ulang saat ditampilkan, data asli tetap EPSG:4326.
 
 ### 6.2 Di Copernicus Browser
 1. Klik ikon **pentagon** (Area of Interest). Jangan ikon garis (Line of Interest), karena tool garis menolak poligon.
-2. Pilih opsi upload, lalu pilih `weberek_radius20km.geojson` atau `weberek_kotak_40km.geojson`.
+2. Pilih opsi upload, lalu pilih `weberek_radius20km.geojson`.
 
 ### 6.3 Di Python
 ```python
