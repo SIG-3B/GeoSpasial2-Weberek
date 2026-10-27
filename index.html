@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f2">
+    <meta
+      name="description"
+      content="Peta terpadu data geospasial Weberek, Dotik, Manufahi, Timor-Leste."
+    >
+    <title>Peta Geospasial Weberek</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="page-header">
+        <a class="brand" href="./" aria-label="Peta Weberek, beranda">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span>WEBEREK <span class="brand-divider">/</span> GIS</span>
+        </a>
+        <span class="header-caption">SISTEM INFORMASI GEOGRAFIS · DOTIK, TIMOR-LESTE</span>
+      </header>
+
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">PETA TERPADU · 5 KELOMPOK DATA</p>
+          <h1 id="page-title">Jelajahi Weberek</h1>
+          <p class="intro-copy">
+            Citra satelit, jaringan seluler, sinyal satelit, jaringan optik, dan area studi dalam satu peta.
+          </p>
+        </div>
+        <div class="map-status" id="map-status" role="status" aria-live="polite">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Menyiapkan peta…</span>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="Peta dan pilihan layer">
+        <aside class="layer-panel" aria-labelledby="layers-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">KONTEN PETA</p>
+              <h2 id="layers-title">Layer data</h2>
+            </div>
+            <button class="text-button" id="toggle-layers" type="button">Matikan semua</button>
+          </div>
+
+          <div class="layer-list">
+            <label class="layer-option" for="layer-satellite">
+              <input id="layer-satellite" type="checkbox" checked>
+              <span class="layer-symbol symbol-satellite" aria-hidden="true"></span>
+              <span class="layer-copy">
+                <span class="layer-name">Citra satelit</span>
+                <span class="layer-detail">Sentinel-2 · 11 Okt 2026</span>
+              </span>
+              <span class="layer-status" id="status-satellite">Memuat</span>
+            </label>
+
+            <label class="layer-option" for="layer-cellular">
+              <input id="layer-cellular" type="checkbox" checked>
+              <span class="layer-symbol symbol-cellular" aria-hidden="true"></span>
+              <span class="layer-copy">
+                <span class="layer-name">Jaringan seluler</span>
+                <span class="layer-detail">Menara dan data sel LTE</span>
+              </span>
+              <span class="layer-status" id="status-cellular">Memuat</span>
+            </label>
+
+            <label class="layer-option" for="layer-signal">
+              <input id="layer-signal" type="checkbox" checked>
+              <span class="layer-symbol symbol-signal" aria-hidden="true"></span>
+              <span class="layer-copy">
+                <span class="layer-name">Sinyal satelit</span>
+                <span class="layer-detail">SES-12 · model RSL</span>
+              </span>
+              <span class="layer-status" id="status-signal">Memuat</span>
+            </label>
+
+            <label class="layer-option" for="layer-optical">
+              <input id="layer-optical" type="checkbox" checked>
+              <span class="layer-symbol symbol-optical" aria-hidden="true"></span>
+              <span class="layer-copy">
+                <span class="layer-name">Jaringan optik</span>
+                <span class="layer-detail">Backbone dan node</span>
+              </span>
+              <span class="layer-status" id="status-optical">Memuat</span>
+            </label>
+
+            <label class="layer-option" for="layer-area">
+              <input id="layer-area" type="checkbox" checked>
+              <span class="layer-symbol symbol-area" aria-hidden="true"></span>
+              <span class="layer-copy">
+                <span class="layer-name">Area studi</span>
+                <span class="layer-detail">Titik pusat dan radius 20 km</span>
+              </span>
+              <span class="layer-status" id="status-area">Memuat</span>
+            </label>
+          </div>
+
+          <div class="map-actions">
+            <button class="primary-button" id="reset-view" type="button">Kembali ke area studi</button>
+          </div>
+
+          <div class="notice">
+            <span class="notice-icon" aria-hidden="true">i</span>
+            <p>
+              Data BTS dan jaringan optik belum diverifikasi independen. Sinyal SES-12 adalah
+              hasil pemodelan, bukan pengukuran lapangan. Data topografi yang tersedia hanya
+              titik pusat dan radius, bukan garis kontur elevasi.
+            </p>
+          </div>
+
+          <div class="map-legend" aria-label="Keterangan simbol peta">
+            <p class="eyebrow">KETERANGAN</p>
+            <div class="legend-row"><span class="legend-dot legend-cellular"></span>Menara / sel LTE</div>
+            <div class="legend-row"><span class="legend-line legend-optical"></span>Jalur jaringan optik</div>
+            <div class="legend-row"><span class="legend-dot legend-signal"></span>Titik model sinyal SES-12</div>
+            <div class="legend-row"><span class="legend-area"></span>Radius area studi 20 km</div>
+          </div>
+        </aside>
+
+        <div class="map-card">
+          <div
+            id="map"
+            class="map"
+            role="region"
+            aria-label="Peta interaktif data geospasial Weberek"
+          ></div>
+          <footer class="map-footer">
+            <span id="feature-summary">Memuat layer peta…</span>
+            <span>Peta dasar © OpenStreetMap · Citra © Copernicus Sentinel-2</span>
+          </footer>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <span>Data geospasial area Weberek, Dotik, Manufahi</span>
+        <span>Seret untuk menggeser · Gulir atau gunakan tombol peta untuk memperbesar</span>
+      </footer>
+    </main>
+  </body>
+</html>

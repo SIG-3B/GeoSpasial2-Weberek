@@ -1,0 +1,57 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare website files
+        run: |
+          mkdir -p \
+            "_site/Citra Foto Satelit" \
+            "_site/Heatmap Jaringan Seluler (BTS)" \
+            "_site/Heatmap Sinyal Satelit" \
+            "_site/Jaringan Optik Nasional" \
+            "_site/Kontur Permukaan"
+          cp index.html app.js styles.css _site/
+          cp "Citra Foto Satelit/sentinel-2-true-color.webp" "_site/Citra Foto Satelit/"
+          cp "Heatmap Jaringan Seluler (BTS)/weberek-80km.geojson" \
+            "Heatmap Jaringan Seluler (BTS)/weberek1.geojson" \
+            "Heatmap Jaringan Seluler (BTS)/weberek2.geojson" \
+            "_site/Heatmap Jaringan Seluler (BTS)/"
+          cp "Heatmap Sinyal Satelit/satelit_ses12.geojson" "_site/Heatmap Sinyal Satelit/"
+          cp "Jaringan Optik Nasional/jaringan-optik-nasional-timor-leste.geojson" \
+            "_site/Jaringan Optik Nasional/"
+          cp "Kontur Permukaan/geo.json" "_site/Kontur Permukaan/"
+
+      - name: Upload website files
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
