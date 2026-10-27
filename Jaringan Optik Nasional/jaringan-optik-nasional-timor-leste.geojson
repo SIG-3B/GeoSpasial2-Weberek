@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "name": "Jaringan_Optik_Nasional_Timor_Leste",
+  "description": "Node dan segmen jaringan optik nasional Timor-Leste berdasarkan data koordinat yang diberikan pengguna. Geometri dan atribut belum diverifikasi independen; bukan data as-built terkonfirmasi.",
+  "metadata": {
+    "crs": "OGC:CRS84",
+    "country": "Timor-Leste",
+    "data_provenance": "Geometri, nama, spesifikasi kabel, status, dan atribut node disalin dari data yang diberikan pengguna.",
+    "verification_status": "Belum diverifikasi independen. Jangan menyajikan status Active/Operational sebagai fakta terkonfirmasi.",
+    "national_network_context_source": "https://id.tatoli.tl/2026/07/01/mtk-targetkan-layanan-fiber-optik-komersial-diluncurkan-juli-ini/",
+    "national_network_context_note": "Artikel TATOLI melaporkan jaringan fiber optik darat nasional hampir rampung per 1 Juli 2026, tetapi tidak memuat koordinat atau trase; sumber tersebut tidak mengonfirmasi fitur-fitur dalam file ini."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node_same_hq",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.64306, -8.96139]
+      },
+      "properties": {
+        "node_id": "TL-MNF-SAM-HQ01",
+        "name": "Same Municipal Core Datacenter / Hub",
+        "facility_type": "Core Backbone POP",
+        "administrative_post": "Same",
+        "municipality": "Manufahi",
+        "elevation_m": 340,
+        "reported_status": "Active",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node_alas_central",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.78333, -9.01667]
+      },
+      "properties": {
+        "node_id": "TL-MNF-ALS-MDF01",
+        "name": "Alas Central Distribution Frame (MDF)",
+        "facility_type": "Main Junction Box",
+        "administrative_post": "Alas",
+        "municipality": "Manufahi",
+        "elevation_m": 120,
+        "reported_status": "Active",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node_dotik_north",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.915, -9.02]
+      },
+      "properties": {
+        "node_id": "TL-MNF-DTK-SPL01",
+        "name": "Dotik North Optical Splicing Point",
+        "facility_type": "Aerial Joint Closure",
+        "suku": "Dotik",
+        "aldeia": "North Dotik",
+        "elevation_m": 95,
+        "reported_status": "Active",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node_weberek_pop",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.91667, -9.03333]
+      },
+      "properties": {
+        "node_id": "TL-MNF-WEB-POP01",
+        "name": "Weberek Optical Access Node (POP)",
+        "facility_type": "Optical Node & Solar Power Unit",
+        "suku": "Dotik",
+        "aldeia": "Weberek",
+        "elevation_m": 86,
+        "reported_status": "Active",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node_weberek_south_bts",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.917, -9.05]
+      },
+      "properties": {
+        "node_id": "TL-MNF-WEB-BTS02",
+        "name": "Weberek Cellular & Fiber Tower Site",
+        "facility_type": "Telecom Tower / Backhaul Link",
+        "suku": "Dotik",
+        "elevation_m": 65,
+        "reported_status": "Active",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node_dotik_center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.9175, -9.07056]
+      },
+      "properties": {
+        "node_id": "TL-MNF-DTK-POP02",
+        "name": "Dotik Central Village Telecom Hub",
+        "facility_type": "Optical Distribution Cabinet (ODC)",
+        "suku": "Dotik",
+        "elevation_m": 48,
+        "reported_status": "Active",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node_dotik_coastal_outpost",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.935, -9.085]
+      },
+      "properties": {
+        "node_id": "TL-MNF-DTK-CST03",
+        "name": "Dotik South Coast Landing / Outpost Node",
+        "facility_type": "Coastal Sub-Distribution Point",
+        "suku": "Dotik",
+        "elevation_m": 12,
+        "reported_status": "Planned / Expansion",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "backbone_same_alas",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.64306, -8.96139],
+          [125.68, -8.98],
+          [125.73, -9.0],
+          [125.78333, -9.01667]
+        ]
+      },
+      "properties": {
+        "segment_id": "TRUNK-SAM-ALS-01",
+        "name": "Same - Alas Primary Backbone Trunk",
+        "cable_type": "48-Core Armored Underground G.652.D",
+        "reported_length_km": 21.5,
+        "reported_status": "Operational",
+        "network_role": "national_backbone",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "backbone_alas_weberek",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.78333, -9.01667],
+          [125.81, -9.019],
+          [125.845, -9.023],
+          [125.88, -9.028],
+          [125.915, -9.02],
+          [125.91667, -9.03333]
+        ]
+      },
+      "properties": {
+        "segment_id": "TRUNK-ALS-WEB-02",
+        "name": "Alas - Weberek Terrestrial Trunk Line",
+        "cable_type": "24-Core Underground & Aerial ADSS",
+        "reported_length_km": 15.6,
+        "reported_status": "Operational",
+        "network_role": "national_backbone",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "backbone_weberek_dotik_main",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.91667, -9.03333],
+          [125.917, -9.05],
+          [125.9175, -9.07056]
+        ]
+      },
+      "properties": {
+        "segment_id": "TRUNK-WEB-DTK-03",
+        "name": "Weberek - Dotik Main Road Corridor Cable",
+        "cable_type": "24-Core Single Mode Fiber Optic",
+        "reported_length_km": 4.1,
+        "reported_status": "Operational",
+        "network_role": "backbone_access",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "feeder_dotik_ring_east",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.9175, -9.07056],
+          [125.925, -9.076],
+          [125.935, -9.085]
+        ]
+      },
+      "properties": {
+        "segment_id": "FEED-DTK-EST-04",
+        "name": "Dotik East Feeder & Coastal Loop",
+        "cable_type": "12-Core Aerial Distribution Cable",
+        "reported_length_km": 3.2,
+        "reported_status": "Active / Expansion",
+        "network_role": "feeder",
+        "verification_status": "user_supplied_unverified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "feeder_weberek_local_loop",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.91667, -9.03333],
+          [125.91, -9.035],
+          [125.905, -9.032],
+          [125.91667, -9.03333]
+        ]
+      },
+      "properties": {
+        "segment_id": "FEED-WEB-LCL-05",
+        "name": "Weberek Local Aldia Protection Ring",
+        "cable_type": "12-Core Distribution Loop",
+        "reported_length_km": 2.4,
+        "reported_status": "Operational",
+        "network_role": "feeder",
+        "verification_status": "user_supplied_unverified"
+      }
+    }
+  ]
+}
