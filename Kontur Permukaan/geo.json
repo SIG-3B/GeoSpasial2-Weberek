@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "name": "weberek_dotik",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weberek, Dotik",
+        "location": "Dotik, Alas, Manufahi, Timor-Leste",
+        "radius_m": 20000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.91691, -9.07051]
+      }
+    }
+  ]
+}
